@@ -4,6 +4,7 @@ import './App.css';
 import image from './JoelHiltonHeadshot.jpg';
 import TopBanner from './Blah';
 import MovieList from './Movies';
+import Navbar from './navbar';
 
 class Welcome extends React.Component {
   render() {
@@ -29,6 +30,7 @@ function App() {
   return (
     <div>
       {/* <TopBanner words="Main Page" /> */}
+      <Navbar />
       <Welcome />
       <Image />
     </div>
