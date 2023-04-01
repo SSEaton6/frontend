@@ -1,26 +1,37 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import image from './JoelHiltonHeadshot.jpg';
+import TopBanner from './Blah';
+import MovieList from './Movies';
 
-function App() {
+class Welcome extends React.Component {
+  render() {
+    return <h1>Welcome to Joel Hilton's Website!</h1>;
+  }
+}
+
+function Image() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <figure>
+        <img src={image} alt="Joel Hilton" loading="lazy" width="350" />
+      </figure>
+      <p>
+        This website is for all about Joel Hilton's Podcast and his love for
+        movies!
+      </p>
     </div>
   );
 }
 
+function App() {
+  return (
+    <div>
+      {/* <TopBanner words="Main Page" /> */}
+      <Welcome />
+      <Image />
+    </div>
+  );
+}
 export default App;
