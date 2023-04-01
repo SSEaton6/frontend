@@ -1,9 +1,11 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+//This is the navbar so that the user can switch between pages.
 function Navbar() {
   return (
-    <nav>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <ul>
         <li>
           <Link to="/">Home</Link>

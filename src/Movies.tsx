@@ -1,28 +1,18 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import MovieData from './MovieData.json';
-
+import Navbar from './navbar';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 const movieData = MovieData.MovieData;
-
+//this function loops through the data file and displays the movies in a table.
 function MovieList() {
-  //Was going to add functionality to add movies, but it is not needed right now.
-  // const [ListofMovies, setListofMovies] = useState(movieData);
-
-  // const addMovie = () => {
-  //   setListofMovies(
-  //     [
-  //       ...movieData,
-  //       {
-
-  //       }]);
-  // };
-
   return (
     <>
+      <Navbar />
       <div>
         <h3>Joel Hilton's Movie Collection</h3>
       </div>
       <div>
-        <table className="table">
+        <table className="table-striped">
           <thead>
             <tr>
               <th>Title</th>

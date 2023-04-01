@@ -1,17 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import image from './JoelHiltonHeadshot.jpg';
-import TopBanner from './Blah';
-import MovieList from './Movies';
 import Navbar from './navbar';
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+//the app.tsx file serves as the main page of the site
 class Welcome extends React.Component {
   render() {
     return <h1>Welcome to Joel Hilton's Website!</h1>;
   }
 }
-
+//function to display the image of Joel Hilton
 function Image() {
   return (
     <div>
@@ -29,7 +27,6 @@ function Image() {
 function App() {
   return (
     <div>
-      {/* <TopBanner words="Main Page" /> */}
       <Navbar />
       <Welcome />
       <Image />
