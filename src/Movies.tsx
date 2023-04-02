@@ -1,7 +1,7 @@
 // import { useState } from 'react';
 import MovieData from './MovieData.json';
 import Navbar from './navbar';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const movieData = MovieData.MovieData;
 //this function loops through the data file and displays the movies in a table.
 function MovieList() {
