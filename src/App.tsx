@@ -12,7 +12,7 @@ class Welcome extends React.Component {
 //function to display the image of Joel Hilton
 function Image() {
   return (
-    <div>
+    <div className="d-flex flex-column align-items-center">
       <figure>
         <img src={image} alt="Joel Hilton" loading="lazy" width="350" />
       </figure>
