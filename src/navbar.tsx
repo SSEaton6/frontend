@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-default">
       <div className="container-fluid">
-        <ul className="nav navbar-nav">
+        <ul className="nav navbar-nav d-flex flex-row gap-5">
           <li className="active">
             <Link to="/">Home</Link>
           </li>

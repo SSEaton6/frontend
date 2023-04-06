@@ -6,7 +6,7 @@ import Navbar from './navbar';
 //the app.tsx file serves as the main page of the site
 class Welcome extends React.Component {
   render() {
-    return <h1>Welcome to Joel Hilton's Website!</h1>;
+    return <h1 className="text-center">Welcome to Joel Hilton's Website!</h1>;
   }
 }
 //function to display the image of Joel Hilton
