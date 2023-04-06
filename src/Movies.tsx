@@ -12,7 +12,7 @@ function MovieList() {
         <h3>Joel Hilton's Movie Collection</h3>
       </div>
       <div>
-        <table className="table-striped">
+        <table className="table table-striped">
           <thead>
             <tr>
               <th>Title</th>

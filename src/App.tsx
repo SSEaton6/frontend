@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import image from './JoelHiltonHeadshot.jpg';
 import Navbar from './navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 //the app.tsx file serves as the main page of the site
 class Welcome extends React.Component {
   render() {
